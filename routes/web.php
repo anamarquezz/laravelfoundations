@@ -17,3 +17,4 @@ Route::get('/', function () {
 Route::get('/about','PageController@about')->name('abourt');
 Route::get('/contact','PageController@contact') ->name('contact');
 Route::post('/contact',"PageController@submitcontact");
+Route::resource('questions','QuestionController');

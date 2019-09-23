@@ -9,13 +9,10 @@
     <!-- Fonts -->
     <!-- Styles -->
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <!-- scripts --></head>
-
+    <!-- scripts -->
+</head>
 <body>
-
     @include('_includes/nav/topnav')
-
     @yield('content')
 </body>
-
 </html>
